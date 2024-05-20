@@ -8,5 +8,21 @@ a{
     color: black;
     font-weight: 550;
     text-decoration: none; /*remove line from text*/
-    
+
+}
+
+/*styling the nav bar*/
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar{   
+    padding-top: 18px;
+}
+
+#navbar-title{
+    color: white;
+    font-size: 25px;
 }
