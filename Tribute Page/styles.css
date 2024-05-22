@@ -1,0 +1,26 @@
+*{
+    background-color: lightskyblue;
+}
+
+header{
+    align-content: center;
+    margin: 5px;
+    border: 5px;
+    background-color: #CEFA87;
+    padding-bottom: 50px; 
+}
+
+.header-name{
+    font-family: papyrus;
+    font-size: 40px;
+    text-align: center;
+    background-color: #FA87CE;
+}
+
+.header-img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;       
+}
