@@ -5,8 +5,8 @@
 header{
     align-content: center;
     margin: 5px;
-    border: 5px;
-    background-color: #CEFA87;
+    border: 15px solid #CEFA87;
+    
     padding-bottom: 50px; 
 }
 
@@ -33,13 +33,16 @@ header{
 
 .tribute-note{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
+    margin: 50px;
+    border: 50px;
 }
 
 .more-info{
     text-align: right;
     background-color: #FA87CE;
     font-family: Arial;
+    
 }
 
