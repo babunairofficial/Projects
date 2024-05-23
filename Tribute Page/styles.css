@@ -24,19 +24,32 @@ header{
     margin-left: auto;
     margin-right: auto;       
 }
-
+.first-letter{
+    font-size: 140px;
+    color: #FA87CE;
+    font-weight: bold;       
+    line-height: 70px;
+    float: left;
+}
 .sub-note{
     font-style: italic;
     text-align: center;
     
 }
 
+
+
 .tribute-note{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: justify;
+    align-items: center;
     margin: 50px;
-    border: 50px;
+    border: 50px;         
+    line-height: 1.5;
+    padding: 50px 0;
+    width: 90%;
+    
 }
 
 .more-info{
