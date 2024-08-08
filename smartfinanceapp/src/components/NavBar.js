@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo512.png';
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} `}>
         <div className="container-fluid">
           <img src={logo} alt="logo of app" className="navbar-logo mx-3"/>
           <a className="navbar-brand" href="/">Smart Finance</a>
@@ -23,6 +23,10 @@ export default function NavBar() {
             </form>
           </div>
         </div>
+        <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'} mx-3`}>
+            <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.mode}</label>
+          </div>
     </nav>
     
   )
