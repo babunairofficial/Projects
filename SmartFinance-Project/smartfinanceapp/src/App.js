@@ -35,7 +35,7 @@ function App() {
   }
 
   //user interface
-  /*
+  
   const addUser = async (userData) => {
     try {
       const response = await fetch('/api/users', {
@@ -71,7 +71,7 @@ function App() {
       return [];
     }
   };
-*/
+
 
   return (
     <div>
@@ -79,7 +79,7 @@ function App() {
       <Alert alert={alert}/>
       <div className="body">
         <Greetings mode={mode}/>
-        <Element mode = {mode} /*{addUser={addUser}}*/ />
+        <Element mode = {mode} addUser={addUser} />
       </div>
    
     </div>

@@ -1,11 +1,22 @@
 import React from 'react';
-// import { handleSubmit } from './Calculate';
+import { handleSubmit } from './Calculate';
 
 
 export default function Element(props) {
-    // const onCalcClick = (e) => handleSubmit(e, props.addUser);
+    const onCalcClick = (e) => handleSubmit(e, props.addUser);
   return (
-    <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh', backgroundColor: props.mode === 'light' ? 'white' : '#343a40', color: props.mode === 'light' ? 'black' : 'white' }}>
+    <div 
+        className="d-flex justify-content-center align-items-center" 
+        style={{ 
+                height: '100vh', 
+                backgroundColor: props.mode === 'light' ? 'white' : '#343a40', 
+                color: props.mode === 'light' ? 'black' : 'white', 
+                marginTop: '-10rem' // Adjust this value to push the content upward
+        }}
+    >
+    {/* Your content goes here */}
+
+
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
@@ -21,6 +32,9 @@ export default function Element(props) {
                                     id="monthlySalary"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
@@ -34,6 +48,9 @@ export default function Element(props) {
                                     id="rent"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
@@ -47,6 +64,9 @@ export default function Element(props) {
                                     id="foodExpenses"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
@@ -66,6 +86,9 @@ export default function Element(props) {
                                     id="travelExpenses"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
@@ -79,6 +102,9 @@ export default function Element(props) {
                                     id="utilityBills"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
@@ -92,6 +118,9 @@ export default function Element(props) {
                                     id="miscExpenses"
                                     aria-label="Amount in Rupees (with dot and two decimal places)"
                                     placeholder="0"
+                                    onInput={(e) => {
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Ensure only non-negative integers are entered
+                                    }}
                                     />
                                 </div>
                             </div>
