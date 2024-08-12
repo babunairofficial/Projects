@@ -3,7 +3,40 @@ import { handleSubmit } from './Calculate';
 
 
 export default function Element(props) {
-    const onCalcClick = (e) => handleSubmit(e, props.addUser);
+    const onCalcClick = async (e) => {
+        e.preventDefault();
+        const userData = {
+            monthlySalary: document.getElementById('monthlySalary').value,
+            rent: document.getElementById('rent').value,
+            foodExpenses: document.getElementById('foodExpenses').value,
+            travelExpenses: document.getElementById('travelExpenses').value,
+            utilityBills: document.getElementById('utilityBills').value,
+            miscExpenses: document.getElementById('miscExpenses').value
+        };
+
+        try {
+            const response = await fetch('/api/users/calculate-emi', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(userData),
+            });
+
+            if (response.ok) {
+            const result = await response.json();
+            // Navigate to a new page to display the result
+            // You might want to use React Router for this
+            // For now, let's just log the result
+            console.log('Permitted EMI:', result.permittedEMI);
+            } else {
+            console.error('Error calculating EMI:', response.status);
+            }
+        } catch (error) {
+            console.error('Error calculating EMI:', error);
+        }
+    };
+    
   return (
     <div 
         className="d-flex justify-content-center align-items-center" 
