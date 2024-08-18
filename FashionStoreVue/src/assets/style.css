@@ -27,3 +27,26 @@ footer{
     color: white;
     text-align: center;
 }
+
+/*add css to items list*/
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
