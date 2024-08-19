@@ -18,17 +18,25 @@
   </template>
   
   <script>
+
+  import tshirtImage from '@/assets/tshirt.jpg'
+  import sunglassesImage from '@/assets/sunglasses.jpg'
+  import shirtsImage from '@/assets/shirts.jpg'
+  import shoesImage from '@/assets/shoes.jpg'
+  import pantsImage from '@/assets/pants.jpg'
+  import perfumeImage from '@/assets/perfume.jpg'
+
   export default {
     name: 'ItemsGrid',
     data() {
       return {
         items: [
-          { name: 'T-Shirts', image: 'https://via.placeholder.com/150?text=T-Shirts' },
-          { name: 'Sun Glasses', image: 'https://via.placeholder.com/150?text=Sun+Glasses' },
-          { name: 'Shirts', image: 'https://via.placeholder.com/150?text=Shirts' },
-          { name: 'Shoes', image: 'https://via.placeholder.com/150?text=Shoes' },
-          { name: 'Pants', image: 'https://via.placeholder.com/150?text=Pants' },
-          { name: 'Perfumes', image: 'https://via.placeholder.com/150?text=Perfumes' }
+          { name: 'T-Shirts', image: tshirtImage },
+          { name: 'Sun Glasses', image: sunglassesImage },
+          { name: 'Shirts', image: shirtsImage },
+          { name: 'Shoes', image: shoesImage },
+          { name: 'Pants', image: pantsImage },
+          { name: 'Perfumes', image: perfumeImage }
         ]
       }
     }
