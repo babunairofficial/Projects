@@ -76,3 +76,12 @@ footer{
 .Sales-table-head{
     background-color: #806BDC;
 }
+
+/*add remining CSS*/
+.Information{
+    width: 92vw;
+    margin: 20px;
+    font-size: 11px;
+    color: #878787;
+    list-style-position: inside;
+}

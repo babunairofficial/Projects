@@ -6,6 +6,7 @@
       <ItemsGrid />
       <ShoppingBanner />
       <SalesTable />
+      <StoreInfo />
     </main>
     
     <Footer/>
@@ -18,6 +19,7 @@ import Footer from './components/Footer.vue'
 import ItemsGrid from './components/ItemsGrid.vue'
 import ShoppingBanner from './components/ShoppingBanner.vue';
 import SalesTable from './components/SalesTable.vue';
+import StoreInfo from './components/StoreInfo.vue';
 
 
 
@@ -27,7 +29,8 @@ export default {
     Header,
     ItemsGrid,
     ShoppingBanner,
-    SalesTable, 
+    SalesTable,
+    StoreInfo, 
     Footer
     
   }
