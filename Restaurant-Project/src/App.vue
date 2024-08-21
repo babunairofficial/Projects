@@ -1,11 +1,19 @@
-<script setup>
-
-</script>
-
 <template>
- 
+    <SignUp />
 </template>
 
-<style scoped>
+<script>
+    import SignUp from './components/SignUp.vue';
+    export default{
+        name:'App',
+        components:{
+            SignUp
+        }
+    }
+</script>
+
+
+
+<style>
 
 </style>
