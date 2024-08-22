@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
+    "restaurant-project": "file:",
     "vue": "^3.4.37"
   },
   "devDependencies": {
