@@ -35,6 +35,7 @@ import axios from 'axios';
                 if(result.status==201){
                     alert("sign-up done");
                     localStorage.setItem("user-info",JSON.stringify(result.data))
+                    this.$router.push({name:"Home"})
                 }
             }
         }
@@ -44,6 +45,18 @@ import axios from 'axios';
 <style>
     .logo{
         width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .register input{

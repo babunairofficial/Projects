@@ -12,7 +12,8 @@
     "axios": "^1.7.5",
     "json-server": "^0.17.4",
     "restaurant-project": "file:",
-    "vue": "^3.4.37"
+    "vue": "^3.4.37",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",

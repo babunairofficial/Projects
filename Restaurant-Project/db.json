@@ -29,6 +29,30 @@
       "email": "virender@test.com",
       "password": "poi@987",
       "name": "virender"
+    },
+    {
+      "id": "3d28",
+      "email": "yuvraj@singh.com",
+      "password": "six6's",
+      "name": "yuvraj"
+    },
+    {
+      "id": "723c",
+      "email": "yuvraj@singh.com",
+      "password": "six6's",
+      "name": "yuvraj"
+    },
+    {
+      "id": "49d5",
+      "email": "ramesh@test.com",
+      "password": "ramesh123",
+      "name": "ramesh"
+    },
+    {
+      "id": "9aaa",
+      "email": "suresh@test.com",
+      "password": "qwert@123",
+      "name": "suresh"
     }
   ]
 }
