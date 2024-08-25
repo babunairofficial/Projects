@@ -53,6 +53,12 @@
       "email": "suresh@test.com",
       "password": "qwert@123",
       "name": "suresh"
+    },
+    {
+      "id": "0fb8",
+      "email": "john@connor.com",
+      "password": "terminator",
+      "name": "John"
     }
   ]
 }
