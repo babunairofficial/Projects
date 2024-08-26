@@ -15,6 +15,12 @@
 
 
 <style>
+body{
+    padding: 0;
+    margin:0;
+
+
+}
 .logo{
         width: 100px;
         display: block;
