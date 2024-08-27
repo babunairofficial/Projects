@@ -60,5 +60,25 @@
       "password": "terminator",
       "name": "John"
     }
+  ],
+  "restaurants":[
+    {
+      "id":1,
+      "name": "Pizza Hut",
+      "contact": "1234",
+      "address":"Karol Bagh"
+    },
+    {
+      "id":2,
+      "name": "CCD",
+      "contact": "5678",
+      "address":"Rajendra Nagar"
+    },
+    {
+      "id":3,
+      "name": "Barbeque Nation",
+      "contact": "9012",
+      "address":"Hauz Khas"
+    }
   ]
 }
