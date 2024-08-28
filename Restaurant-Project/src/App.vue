@@ -31,13 +31,13 @@ body{
         text-align: center;
     }
 
-    .register, .login {
+    .register, .login, .add {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .register input, .login input{
+    .register input, .login input, .add input{
         width: 300px;
         height: 40px;
         padding-left: 20px;
@@ -48,7 +48,7 @@ body{
         border: 1px solid #f0934c;
     }
     
-    .register button, .login button{
+    .register button, .login button, .add button{
         width: 320px;
         height: 40px;
         border: 1px solid palevioletred;
