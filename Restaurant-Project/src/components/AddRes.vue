@@ -11,6 +11,7 @@
 
 <script>
 import Header from './Header.vue';
+import axios from 'axios';
 export default{
     name:"AddRestaurant",
 
@@ -28,8 +29,16 @@ export default{
 
     },
     methods:{
-        addRestaurant(){
+        async addRestaurant(){
             console.warn(this.Restaurant);
+            const result = await axios.post("http://localhost:3000/restaurants",{
+                name:this.Restaurant.name,
+                address: this.Restaurant.address,
+                contact: this.Restaurant.contact
+            });
+            if(result.status==201){
+                this.$router.push({name:'Home'})
+            }
         }     
     },
 

@@ -61,24 +61,42 @@
       "name": "John"
     }
   ],
-  "restaurants":[
+  "restaurants": [
     {
-      "id":1,
+      "id": "1",
       "name": "Pizza Hut",
       "contact": "1234",
-      "address":"Karol Bagh"
+      "address": "Karol Bagh"
     },
     {
-      "id":2,
+      "id": "2",
       "name": "CCD",
       "contact": "5678",
-      "address":"Rajendra Nagar"
+      "address": "Rajendra Nagar"
     },
     {
-      "id":3,
+      "id": "3",
       "name": "Barbeque Nation",
       "contact": "9012",
-      "address":"Hauz Khas"
+      "address": "Hauz Khas"
+    },
+    {
+      "id": "3933",
+      "name": "ZamZam ",
+      "contact": "7954",
+      "address": "tvm"
+    },
+    {
+      "id": "6754",
+      "name": "Starbucks",
+      "address": "Delhi",
+      "contact": "111000"
+    },
+    {
+      "id": "f39e",
+      "name": "Biryani House",
+      "address": "CP",
+      "contact": "233432"
     }
   ]
 }
