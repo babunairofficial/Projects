@@ -63,16 +63,16 @@
   ],
   "restaurants": [
     {
-      "id": "1",
       "name": "Pizza Hut",
+      "address": "West Karol Bagh",
       "contact": "1234",
-      "address": "Karol Bagh"
+      "id": "1"
     },
     {
-      "id": "2",
       "name": "CCD",
+      "address": "Old Rajendra Nagar",
       "contact": "5678",
-      "address": "Rajendra Nagar"
+      "id": "2"
     },
     {
       "id": "3",
