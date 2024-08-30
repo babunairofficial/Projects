@@ -63,30 +63,6 @@
   ],
   "restaurants": [
     {
-      "name": "Pizza Hut",
-      "address": "West Karol Bagh",
-      "contact": "1234",
-      "id": "1"
-    },
-    {
-      "name": "CCD",
-      "address": "Old Rajendra Nagar",
-      "contact": "5678",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "name": "Barbeque Nation",
-      "contact": "9012",
-      "address": "Hauz Khas"
-    },
-    {
-      "id": "3933",
-      "name": "ZamZam ",
-      "contact": "7954",
-      "address": "tvm"
-    },
-    {
       "id": "6754",
       "name": "Starbucks",
       "address": "Delhi",
