@@ -29,7 +29,7 @@ const routes=[
     {
         name:"UpdateRestaurnat",
         component: UpdateRes,
-        path: "/Update/:id"
+        path: "/Update/:id?"
     }
 ];
 
