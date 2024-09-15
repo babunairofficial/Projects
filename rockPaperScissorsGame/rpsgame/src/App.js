@@ -5,17 +5,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a 
+        className="App-link"
+        href="/"
+        target="_blank"
+        rel="noopener noreferrer">
+          <img src={logo} className="App-logo" alt="logo" />
+        </a>        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Click on image to begin
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Let's Play Rock, Paper and Scissors
         </a>
       </header>
     </div>
