@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const Listing = require("./models/listing");
+const Listing = require("../models/listing");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderloft";
 
